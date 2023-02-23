@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: path.resolve(__dirname, 'src/js/index.js'),
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, './dist'),
         filename: 'bundle.js'
     },
     module:{
@@ -31,5 +31,5 @@ module.exports = {
         //自动补全文件扩展名
         extensions: [".jsx", ".js", ".json",".less"],
     },
-    mode:'development'
+    // mode:'production'
 };

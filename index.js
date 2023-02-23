@@ -1,3 +1,3 @@
 
-import SwitchBtnPage from './src/plugin/SwitchBtnPage.jsx'
+import SwitchBtnPage from './src/js/plugin/SwitchBtnPage.jsx'
 export default SwitchBtnPage
